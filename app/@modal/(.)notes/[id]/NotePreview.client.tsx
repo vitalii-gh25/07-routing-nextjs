@@ -42,6 +42,9 @@ export default function NotePreview() {
         <p>{formattedDate}</p>
         <span>{note.tag}</span>
       </div>
+      <button className={css.backBtn} onClick={handleClose}>
+        Back
+      </button>
     </Modal>
   );
 }
